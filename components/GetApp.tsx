@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './Button'
 import Image from 'next/image'
+import { SOCIALS } from '@/constants'
 
 export const GetApp = () => {
   return (
@@ -20,13 +21,17 @@ export const GetApp = () => {
               icon='/instagram-color.svg'
               variant='btn_white'
               full
+              href={SOCIALS.links[1].href}
+              className='hover:opacity-80'
             />
             <Button
               type='button'
-              title='Whatsapp'
-              icon='/whatsapp.svg'
+              title='Messenger'
+              icon='/messenger.svg'
               variant='btn_white'
               full
+              href={SOCIALS.links[0].href}
+              className='hover:opacity-80'
             />
           </div>
         </div>

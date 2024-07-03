@@ -5,8 +5,8 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 type ImagesProps = {
-  src: string,
-  alt: string
+  src: string;
+  alt: string;
 };
 
 type CarouselProps = {
@@ -23,11 +23,11 @@ const Carousel = ({ images, showButtons = false }: CarouselProps) => {
     }, 4000);
 
     return () => clearInterval(interval); // Limpiar el intervalo al desmontar el componente
-  }, [images.length]); // Dependencia para que se ejecute cuando cambie el tamaño del array de imágenes
+  }, [images.length, currentImageIndex]); // Dependencia para que se ejecute cuando cambie el tamaño del array de imágenes
 
   const goToPreviousImage = () => {
-    setCurrentImageIndex((prevIndex) =>
-      (prevIndex - 1 + images.length) % images.length
+    setCurrentImageIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
     );
   };
 
@@ -47,9 +47,12 @@ const Carousel = ({ images, showButtons = false }: CarouselProps) => {
           <Image
             src={image.src}
             alt={image.alt}
-            layout="fill"
-            objectFit="cover"
-            className="rounded-md"
+            width={820}
+            height={1200}
+            // layout="responsive"
+            // layout="fill"
+            // objectFit="cover"
+            className="rounded-md object-cover w-full h-full"
           />
         </div>
       ))}

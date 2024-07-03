@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./Button";
+import { SOCIALS } from "@/constants";
 
 export const Hero = () => {
   return (
@@ -16,8 +17,8 @@ export const Hero = () => {
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
 
-        <h1 className="bold-52 lg:bold-88">Glamping Experience in Denmark</h1>
-        
+        <h1 className="bold-52 lg:bold-88">Glamping Mi casa, tu casa DK</h1>
+
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Imagine waking up surrounded by the serenity of nature without giving
           up the comforts of luxury. We want to be part of each of your trips,
@@ -50,37 +51,42 @@ export const Hero = () => {
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Download" variant="btn_green" />
-
           <Button
+            type="button"
+            title="Go to Booking.com"
+            variant="btn_booking_color"
+            className="hover:opacity-80"
+            href={SOCIALS.links[2].href}
+          />
+
+          {/* <Button
             type="button"
             title="How we work?"
             icon="/play.svg"
             variant="btn_white_text"
-          />
+          /> */}
         </div>
       </div>
 
       <div className="relative flex flex-1 items-start">
         <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
-          
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regular-16 text-gray-30">Location</p>
               <Image src="/close.svg" width={24} height={24} alt="close" />
             </div>
-            <p className="bold-20 text-white">Tomerup</p>
+            <p className="bold-20 text-white">Ravnholmvej 40</p>
           </div>
 
           <div className="flexBetween">
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Distance</p>
-              <p className="bold-20 text-white">123 mtrs</p>
+              <p className="regular-16 block text-gray-20">Country</p>
+              <p className="bold-20 text-white">Denmark</p>
             </div>
-            <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Elevation</p>
-              <p className="bold-20 text-white">2 km</p>
-            </div>
+            {/* <div className="flex flex-col">
+              <p className="regular-16 block text-gray-20">Expectation</p>
+              <p className="bold-20 text-white"></p>
+            </div> */}
           </div>
         </div>
       </div>

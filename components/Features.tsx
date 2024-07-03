@@ -17,7 +17,7 @@ export const Features = () => {
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
             <Image src="/camp.svg" alt="camp" width={50} height={50} />
-            <h2 className="bold-40 lg:bold-64">Our Feature</h2>
+            <h2 className="bold-40 lg:bold-64">Faciliteter</h2>
           </div>
           <ul className="mt-10 grid gap-6 md:grid-cols-2 lg:mg-20 lg:gap-10">
             {FEATURES.map((feature) => (

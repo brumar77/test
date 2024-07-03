@@ -16,7 +16,7 @@ export const NavBar = () => {
   return (
     <nav className=" flexBetween max-container padding-container relative z-30 py-1">
       <Link href="/">
-        <Image src="/logo.svg" width={100} height={60} alt="logo" />
+        <Image src="/logo-glamping-mi-casa-tu-casa.png" width={100} height={60} alt="logo" />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex">

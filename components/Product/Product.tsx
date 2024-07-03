@@ -1,5 +1,6 @@
 "use client";
 
+import { SOCIALS } from "@/constants";
 import { Button } from "../Button";
 import Carousel from "../Carrousel";
 import { ProductImage } from "./ProductImage";
@@ -41,7 +42,6 @@ export const Product = ({ products }: ProductProps) => {
           >
             {product.image && (
               <div className="mx-3 my-3 w-full lg:w-1/2 md:flex md:justify-center">
-                {/* Renderiza el carrusel de imágenes aquí */}
                 <Carousel images={product.image} showButtons={true} />
               </div>
             )}
@@ -56,9 +56,19 @@ export const Product = ({ products }: ProductProps) => {
 
               <Button
                 type="button"
-                title="Reserve Now"
+                title="Reserve Now - Booking.com"
                 variant="btn_champagne_hard"
                 full
+                href={SOCIALS.links[2].href}
+                className="hover:btn_champagne_medium"
+              />
+               <Button
+                type="button"
+                title="Reserve Now - Airbnb"
+                variant="btn_champagne_hard"
+                full
+                href={SOCIALS.links[3].href}
+                className="hover:btn_champagne_medium"
               />
             </div>
 

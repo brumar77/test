@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,6 +19,10 @@ body {
 }
 
 @layer utilities {
+
+  .font-outfit {
+    font-family: 'Outfit', sans-serif; /* Utiliza la fuente de Google */
+  }
   .btn_white { 
     @apply  border-white bg-white px-8 py-3 text-green-50
   }
@@ -42,6 +49,9 @@ body {
   }
   .btn_champagne_outline { 
     @apply  border-champagne-50 bg-white px-8 py-5 text-champagne-50
+  }
+  .btn_booking_color { 
+    @apply  bg-blue-70 px-8 py-4 text-white
   }
   
   .max-container {

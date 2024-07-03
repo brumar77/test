@@ -83,10 +83,10 @@ export const Hero = () => {
               <p className="regular-16 block text-gray-20">Country</p>
               <p className="bold-20 text-white">Denmark</p>
             </div>
-            {/* <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Expectation</p>
-              <p className="bold-20 text-white"></p>
-            </div> */}
+            <div className="flex flex-col">
+              <p className="regular-16 block text-gray-20">Island</p>
+              <p className="bold-20 text-white">Fyn</p>
+            </div>
           </div>
         </div>
       </div>

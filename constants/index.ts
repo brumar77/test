@@ -112,68 +112,74 @@ export const OUR_PETS = [
 
 export const FEATURES = [
   {
-    title: "Lujo en la Naturaleza",
+    title: "Luxury in the nature",
     icon: "/diamante.svg",
     description:
-      "Disfruta de una cama de lujo en medio de la naturaleza, con todas las comodidades de un hotel cinco estrellas.",
+      "En overnatning i velindrettet og veludstyret telt på trædæk",
   },
   {
     title: "Dampsauna",
     icon: "/sauna-50.png",
     description:
-      "Relájate en nuestra sauna exclusiva, disponible para todos los huéspedes, con opción de agua fría para una experiencia revitalizante.",
+      "Vores dampsauna er designet til at tilbyde en afslappende og forfriskende oplevelse. Træd ind i vores dampfyldte sauna og lad varmen og fugtigheden rense din krop og sind. Med beroligende aromaer og en behagelig atmosfære er vores dampsauna det perfekte sted at slappe af og genoplive dine sanser.",
   },
   {
     title: "Is Bad",
     icon: "/cold-48.png",
     description:
-      "Tina con hielo luego del sauna, una experiencia relajante y sin preocupaciones.",
+      "Vores glamping tilbyder en unik isbadoplevelse, perfekt til at genopfriske kroppen efter en varm saunaoplevelse. Tag en forfriskende dukkert i vores iskolde pool og oplev den fornyede energi og velvære, som kun isbad kan give.",
   },
   {
-    title: "Masajes",
+    title: "Afslappende Massage på Glamping - Book din Unikke Oplevelse",
     icon: "/massage-50.png",
     description:
-      "Masaje relajante. Para esta experiencia contactanos para mas información.",
+      "Oplev roen ved vores afslappende massage på vores glamping i Fyn. Nyd et øjeblik af fred og fornyelse med vores erfarne massører. Bemærk: Massage er ikke inkluderet i den normale pris. Kontakt os for detaljer og book din session i dag.",
   },
   {
-    title: "Baño Movil completo",
+    title: "Komplet mobilt badeværelse",
     icon: "/toilet-50.png",
     description:
-      "Tendras un baño movil completo con Toilet, ducha, agua fría y caliente, garantizando comodidad y privacidad.",
+      "Complet mobilt badeværelse med toiletbruser (varmt og koldt vand- el/i badeværelset/håndsæbe brusegel og toiletpapir)",
   },
   {
-    title: "Breakfast",
+    title: "2 * Dyner per person",
     icon: "/breakfast-64.png",
     description:
-      "Disfruta de un desayuno campestre. Algunas opciones son: Café, Te, Leche, Pan, Manteca , Queso, Avocado, Huevos, Mermelada, Yogurt, Panqueques",
+      "Vi tilbyder to dyner per person på vores glamping, så du kan nyde ekstra varme og komfort under dit ophold.",
   },
   {
-    title: "Área de Grill",
+    title: "Grillområde - Nyd Madlavning i Det Fri",
     icon: "/grill-50.png",
     description:
-      "Grill, bålsted con una canasta de madera incluido, mesas y sillas.",
+      "Vores grillområde tilbyder alt hvad du behøver for en hyggelig udendørs madlavningsoplevelse. Udstyret inkluderer en grill, bålsted med en kurv af brænde, samt borde og stole, så du kan nyde måltider under åben himmel.",
   },
   {
-    title: "Ropa de Cama",
+    title: "Sengetøj",
     icon: "/ropa-cama.png",
-    description: "Para sentir tu cama, tenemos ropa de cama de lujo.",
+    description: "Vores glamping tilbyder komfortabelt og indbydende sengetøj, der sikrer en god nattesøvn. Dyner og puder er nøje udvalgt for at give dig den bedst mulige komfort, så du kan vågne op frisk og udhvilet.",
   },
   {
-    title: "Senderos privados",
+    title: "Rolige Vandrestier i Naturen - Oplev Skønheden på Fyn",
     icon: "/hiking-50.png",
     description:
-      "Con senderos privados, puedes tomar un paseo de senderismo en la naturaleza.",
+      "Opdag vores glampings rolige vandrestier, perfekte til afslappende gåture gennem små skove, åbne enge og charmerende landskaber. Nyd roen og freden i naturen på Fyn, mens du udforsker disse stier.",
   },
   {
-    title: "Bicicletas",
+    title: "Cykler til Udlån - Udforsk Skønheden af Fyn",
     icon: "/bike-50.png",
-    description: "Posibilidad de usar bicicletas para paseos cortos/medios",
+    description: "Nyd muligheden for at låne en cykel på vores glamping og udforsk Fyns naturskønne landskab på egen hånd. Tag gerne din egen hjelm med, hvis du har brug for det.",
   },
   {
-    title: "Ubicación en Dinamarca",
+    title: "Beliggenhed i Danmark - Oplev Skønheden",
     icon: "/location-50.png",
     description:
-      "Situado en el hermoso paisaje de Dinamarca, nuestro glamping ofrece una escapada única rodeada de naturaleza y tranquilidad.",
+      "Vores beliggenhed i Danmark byder på enestående omgivelser, hvor vores glamping tilbyder en unik flugt omgivet af natur og ro. Oplev det smukke landskab og lad dig fortrylle af Danmarks naturlige skønhed.",
+  },
+  {
+    title: "Indtjekning og Udtjekning Tider - Glamping på Fyn",
+    icon: "/calendar.png",
+    description:
+      "Vores glamping tilbyder fleksible indtjeknings- og udtjekningstider, så du kan nyde dit ophold på dine præmisser. Indtjekning er fra kl. 14:00 og udtjekning er kl. 10:00. Kontakt os for yderligere information eller for at foretage en reservation.",
   },
 ];
 

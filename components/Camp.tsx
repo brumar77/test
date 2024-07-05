@@ -70,27 +70,29 @@ export const Camp = () => {
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
-          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
+          {/* <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
             <strong>Feeling Lost</strong> and not Knowing the way?
+          </h2> */}
+          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
+            <strong>Føler du dig fortabt</strong> og ved ikke vejen?
           </h2>
+
           <p className="regular-14 xl:regular-16 mt-5 text-white">
-            Are you looking for a perfect escape to disconnect from daily stress
-            and reconnect with nature? Our glamping offers the ideal combination
-            of luxury and serenity in beautiful landscapes. Imagine waking up to
-            the sound of birds and the gentle murmur of a nearby stream, while
-            enjoying the comfort of a luxury bed and all modern amenities. At
-            our glamping, every detail is designed to give you a unique and
-            relaxing experience.
+            Leder du efter en perfekt flugt for at afbryde fra daglig stress og
+            genoprette forbindelsen til naturen? Vores glamping tilbyder den
+            ideelle kombination af luksus og ro i smukke landskaber. Forestil
+            dig at vågne op til lyden af fugle og den blide hvisken fra en
+            nærliggende bæk, mens du nyder komforten af en luksusseng og alle
+            moderne bekvemmeligheder. På vores glamping er hver detalje designet
+            til at give dig en unik og afslappende oplevelse.
           </p>
           <Image
-          className="camp-quote"
+            className="camp-quote"
             src="/quote.svg"
             alt="camp-2"
             width={186}
             height={219}
           />
-
-
         </div>
       </div>
     </section>

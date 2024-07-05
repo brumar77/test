@@ -19,12 +19,18 @@ export const Hero = () => {
 
         <h1 className="bold-52 lg:bold-88">Glamping Mi casa, tu casa DK</h1>
 
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
+        {/* <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Imagine waking up surrounded by the serenity of nature without giving
           up the comforts of luxury. We want to be part of each of your trips,
           offering unique and memorable glamping experiences. With our app, your
           next adventure full of glamour and nature is just a click away. Join
           our community of explorers and discover glamping like never before!
+        </p> */}
+
+        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
+          Oplev en unik glampingoplevelse i Danmark. Vi tilbyder luksuriøs
+          indkvartering midt i naturen med alle moderne bekvemmeligheder. Book
+          nu og få en uforglemmelig ferie
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">

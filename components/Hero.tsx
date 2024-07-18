@@ -51,7 +51,7 @@ export const Hero = () => {
           <p className="bold-16 lg:bold-20 text-blue-70">
             1.5k
             <span className="regular-16 lg:regular-20 ml-1">
-              Excellent Reviews
+            Fremragende anmeldelser
             </span>
           </p>
         </div>
@@ -59,7 +59,7 @@ export const Hero = () => {
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button
             type="button"
-            title="Go to Booking.com"
+            title="Gå til Booking.com"
             variant="btn_booking_color"
             className="hover:opacity-80"
             href={SOCIALS.links[2].href}
@@ -81,7 +81,7 @@ export const Hero = () => {
               <p className="regular-16 text-gray-30">Location</p>
               <Image src="/close.svg" width={24} height={24} alt="close" />
             </div>
-            <p className="bold-20 text-white">Ravnholmvej 40</p>
+            <p className="bold-20 text-white">Ravnholmvej</p>
           </div>
 
           <div className="flexBetween">

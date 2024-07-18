@@ -36,7 +36,7 @@ const Carousel = ({ images, showButtons = false }: CarouselProps) => {
   };
 
   return (
-    <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
+    <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden px-4 sm:px-8 md:px-12 lg:px-16">
       {images.map((image, index) => (
         <div
           key={index}

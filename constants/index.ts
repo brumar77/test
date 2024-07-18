@@ -1,5 +1,3 @@
-import { title } from "process";
-
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Forside" },
@@ -58,10 +56,10 @@ export const ABOUT_IMAGES = [
     src: "/about-us/2-glamping-denmark-mi-casa-tu-casa-family.jpg",
     alt: "glamping-denmark-mi-casa-tu-casa-family",
   },
-  {
-    src: "/about-us/3-glamping-denmark-mi-casa-tu-casa-family.jpg",
-    alt: "glamping-denmark-mi-casa-tu-casa-family",
-  },
+  // {
+  //   src: "/about-us/3-glamping-denmark-mi-casa-tu-casa-family.jpg",
+  //   alt: "glamping-denmark-mi-casa-tu-casa-family",
+  // },
   {
     src: "/about-us/4-glamping-denmark-mi-casa-tu-casa-family.jpg",
     alt: "glamping-denmark-mi-casa-tu-casa-family",
@@ -114,8 +112,7 @@ export const FEATURES = [
   {
     title: "Luxury in the nature",
     icon: "/diamante.svg",
-    description:
-      "En overnatning i velindrettet og veludstyret telt på trædæk",
+    description: "En overnatning i velindrettet og veludstyret telt på trædæk",
   },
   {
     title: "Dampsauna",
@@ -156,7 +153,8 @@ export const FEATURES = [
   {
     title: "Sengetøj",
     icon: "/ropa-cama.png",
-    description: "Vores glamping tilbyder komfortabelt og indbydende sengetøj, der sikrer en god nattesøvn. Dyner og puder er nøje udvalgt for at give dig den bedst mulige komfort, så du kan vågne op frisk og udhvilet.",
+    description:
+      "Vores glamping tilbyder komfortabelt og indbydende sengetøj, der sikrer en god nattesøvn. Dyner og puder er nøje udvalgt for at give dig den bedst mulige komfort, så du kan vågne op frisk og udhvilet.",
   },
   {
     title: "Rolige Vandrestier i Naturen - Oplev Skønheden på Fyn",
@@ -167,7 +165,8 @@ export const FEATURES = [
   {
     title: "Cykler til Udlån - Udforsk Skønheden af Fyn",
     icon: "/bike-50.png",
-    description: "Nyd muligheden for at låne en cykel på vores glamping og udforsk Fyns naturskønne landskab på egen hånd. Tag gerne din egen hjelm med, hvis du har brug for det.",
+    description:
+      "Nyd muligheden for at låne en cykel på vores glamping og udforsk Fyns naturskønne landskab på egen hånd. Tag gerne din egen hjelm med, hvis du har brug for det.",
   },
   {
     title: "Beliggenhed i Danmark - Oplev Skønheden",
@@ -186,13 +185,13 @@ export const FEATURES = [
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: "Learn More",
+    title: "Lær mere",
     links: ["About Soledad Camping", "Privacy Policy", "Contact Us"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: "Contact Us",
+  title: "Kontakt os",
   links: [
     { label: "Telefonnummer / Reservationer", value: "+45 42224783" },
     { label: "Email", value: "info@glamping-micasatucasa.dk" },
@@ -211,7 +210,7 @@ export const SOCIALS = {
       icon: "/instagram.svg",
     },
     {
-      href: " https://www.booking.com/Share-AIvusaz",
+      href: "https://www.booking.com/Share-Dqs0cx",
       icon: "/booking-icon.svg",
     },
     {
@@ -225,12 +224,13 @@ export const BASICPRODUCTS = [
   {
     id: 1,
     title: "Glamping",
-    subtitle: "En la naturaleza",
+    subtitle: "I naturen",
     description: `Priser
-      per voksen per nat 800 kr
-      babyer og børn op til 3 år gratis
-      børn fra 3 til 7 år 300 kr per nat
-      Børn fra 7 til 12 år 400 kr per nat`,
+
+      Per Voksen Per Nat 800 Kr
+      Babyer Og Børn Op Til 3 År Gratis
+      Børn Fra 3 Til 7 År 300 Kr Per Nat
+      Børn Fra 7 Til 12 År 400 Kr Per Nat`,
     image: [
       {
         src: "/price/glamping-in-denmark-mi-casa-tu-casa-best-price-1.jpg",
@@ -280,18 +280,18 @@ export const BASICPRODUCTS = [
         src: "/price/glamping-in-denmark-mi-casa-tu-casa-price-6.jpg",
         alt: "glamping-in-denmark-mi-casa-tu-casa-price-6",
       },
-      {
-        src: "/product-glamping.jpg",
-        alt: "Product Glamping",
-      },
-      {
-        src: "/product-glamping-2.jpg",
-        alt: "Product Glamping 2",
-      },
-      {
-        src: "/product-glamping-3.jpg",
-        alt: "Product Glamping 3",
-      },
+      // {
+      //   src: "/product-glamping.jpg",
+      //   alt: "Product Glamping",
+      // },
+      // {
+      //   src: "/product-glamping-2.jpg",
+      //   alt: "Product Glamping 2",
+      // },
+      // {
+      //   src: "/product-glamping-3.jpg",
+      //   alt: "Product Glamping 3",
+      // },
     ],
     price: 123456,
     availableRoom: true,

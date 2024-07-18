@@ -1,5 +1,8 @@
+"use client";
+
 import { PEOPLE_URL } from "@/constants";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 interface CampProps {
   backgroundImage: string;
@@ -14,9 +17,17 @@ const CampSite = ({
   subtitle,
   peopleJoined,
 }: CampProps) => {
+
+  const [randomPeople, setRandomPeople] = useState<string[]>([]);
+
+  useEffect(() => {
+    const shuffledPeople = [...PEOPLE_URL].sort(() => Math.random() - 0.5);
+    setRandomPeople(shuffledPeople);
+  }, []);
+
   return (
     <div
-      className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl `}
+      className={`h-full w-full min-w-full sm:min-w-[600px] md:min-w-[800px] lg:min-w-[1100px] ${backgroundImage} bg-cover bg-center bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl `}
     >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
@@ -31,7 +42,7 @@ const CampSite = ({
 
         <div className="flexCenter gap-6">
           <span className="flex -space-x-4 overflow-hidden">
-            {PEOPLE_URL.map((url, index) => (
+            {randomPeople.map((url, index) => (
               <Image
                 className="inline-block h-10 w-10 rounded-full"
                 key={url}
@@ -52,17 +63,18 @@ const CampSite = ({
 export const Camp = () => {
   return (
     <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
-      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
+      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-4 overflow-x-auto sm:gap-6 md:gap-8 sm:h-[360px] md:h-[380px] lg:h-[400px] xl:h-[640px]">
         <CampSite
           backgroundImage="bg-bg-img-1"
-          title="Carpa Lujo XL"
+          // backgtoundImage="./price/glamping-in-denmark-mi-casa-tu-casa-best-price-2.jpg"
+          title="MiCasaTuCasa"
           subtitle="Exclusive"
           peopleJoined="100+ Joined"
         />
 
         <CampSite
           backgroundImage="bg-bg-img-2"
-          title="Carpa Lujo XL"
+          title="MiCasaTuCasa"
           subtitle="Exclusive"
           peopleJoined="100+ Joined"
         />

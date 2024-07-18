@@ -36,13 +36,13 @@ export const Guide = () => {
         </div>
       </div>
 
-      <div className="flexCenter max-container relative w-full">
+      <div className="flexCenter relative">
         <Image
-          src="/boat.png"
+          src="/price/glamping-in-denmark-mi-casa-tu-casa-best-price-5.jpg"
           alt="boat"
-          width={1440}
-          height={580}
-          className="w-full object-cover object-center 2xl:rounded-5xl"
+          width={480}
+          height={380}
+          className="w-full object-cover object-center 2xl:rounded-5xl lg:max-w-3xl lg:rounded-xl xl:max-w-4xl 2xl:max-w-5xl"
         />
       </div>
     </section>

@@ -40,7 +40,7 @@ const Story = ({ title, subtitle, histories }: StoryProps ) => {
         <div className="mt-6">
           <Button
             type="button"
-            title={showMore ? "Read less" : "Read more"}
+            title={showMore ? "Læs mindre" : "Læs mere"}
             variant="btn_champagne_hard"
             onClick={toggleShowMore}
             className="w-full lg:w-auto" 

@@ -23,7 +23,7 @@ export const Guide = () => {
             comfortable experience in the midst of nature.
           </p> */}
 
-          <h2 className="bold-40 bold-64 xl:max-w-[390px]">
+          {/* <h2 className="bold-40 bold-64 xl:max-w-[390px]">
             Tips og forslag til at nyde luksus i naturen
           </h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
@@ -32,6 +32,19 @@ export const Guide = () => {
             kan maksimere dit udendørseventyr med al komfort og stil. Følg vores
             guide og omdan din udflugt til en luksuriøs og komfortabel oplevelse
             midt i naturen.
+          </p>  sacado para poner lo sacado el recuerda verde*/}
+
+          <h2 className="bold-40 bold-64 xl:max-w-[390px]">
+            Føler du dig fortabt og ved ikke vejen?
+          </h2>
+          <p className="regular-16 text-gray-30 xl:max-w-[520px]">
+            Leder du efter en perfekt flugt for at afbryde fra daglig stress og
+            genoprette forbindelsen til naturen? Vores glamping tilbyder den
+            ideelle kombination af luksus og ro i smukke landskaber. Forestil
+            dig at vågne op til lyden af fugle og den blide hvisken fra en
+            nærliggende bæk, mens du nyder komforten af en luksusseng og alle
+            moderne bekvemmeligheder. På vores glamping er hver detalje designet
+            til at give dig en unik og afslappende oplevelse.
           </p>
         </div>
       </div>

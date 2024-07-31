@@ -81,7 +81,7 @@ export const Hero = () => {
               <p className="regular-16 text-gray-30">Location</p>
               <Image src="/close.svg" width={24} height={24} alt="close" />
             </div>
-            <p className="bold-20 text-white">Ravnholmvej</p>
+            <p className="bold-20 text-white">Vissenbjerg, 5492</p>
           </div>
 
           <div className="flexBetween">

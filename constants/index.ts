@@ -114,17 +114,17 @@ export const FEATURES = [
     icon: "/diamante.svg",
     description: "En overnatning i velindrettet og veludstyret telt på trædæk",
   },
-  {
-    title: "Dampsauna",
-    icon: "/sauna-50.png",
-    description:
-      "Vores dampsauna er designet til at tilbyde en afslappende og forfriskende oplevelse. Træd ind i vores dampfyldte sauna og lad varmen og fugtigheden rense din krop og sind. Med beroligende aromaer og en behagelig atmosfære er vores dampsauna det perfekte sted at slappe af og genoplive dine sanser.",
-  },
+  // {
+  //   title: "Dampsauna",
+  //   icon: "/sauna-50.png",
+  //   description:
+  //     "Vores dampsauna er designet til at tilbyde en afslappende og forfriskende oplevelse. Træd ind i vores dampfyldte sauna og lad varmen og fugtigheden rense din krop og sind. Med beroligende aromaer og en behagelig atmosfære er vores dampsauna det perfekte sted at slappe af og genoplive dine sanser.",
+  // },
   {
     title: "Is Bad",
     icon: "/cold-48.png",
     description:
-      "Vores glamping tilbyder en unik isbadoplevelse, perfekt til at genopfriske kroppen efter en varm saunaoplevelse. Tag en forfriskende dukkert i vores iskolde pool og oplev den fornyede energi og velvære, som kun isbad kan give.",
+      "Tag en forfriskende dukkert i vores iskolde pool og oplev den fornyede energi og velvære, som kun isbad kan give.",
   },
   {
     title: "Afslappende Massage på Glamping - Book din Unikke Oplevelse",

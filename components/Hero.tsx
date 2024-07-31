@@ -14,10 +14,10 @@ export const Hero = () => {
           alt="camp"
           width={50}
           height={50}
-          className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
+          className="absolute left-[-5px] top-[-40px] w-10 lg:w-[50px]"
         />
 
-        <h1 className="bold-52 lg:bold-88">Glamping Mi casa, tu casa DK</h1>
+        <h1 className="bold-52 lg:bold-52">Glamping Mi casa, tu casa DK</h1>
 
         {/* <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Imagine waking up surrounded by the serenity of nature without giving

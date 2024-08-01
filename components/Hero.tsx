@@ -6,9 +6,9 @@ import { SOCIALS } from "@/constants";
 export const Hero = () => {
   return (
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row ">
-      <div className="hero-map" />
+      <div className="hero-map animate-slide-in-right" />
 
-      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
+      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 animate-slide-in-left ">
         <Image
           src="/camp.svg"
           alt="camp"
@@ -17,7 +17,7 @@ export const Hero = () => {
           className="absolute left-[-5px] top-[-40px] w-10 lg:w-[50px]"
         />
 
-        <h1 className="bold-52 lg:bold-52">Glamping Mi casa, tu casa DK</h1>
+        <h1 className="bold-52 font-dancing lg:bold-52">Glamping Mi casa, tu casa DK</h1>
 
         {/* <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Imagine waking up surrounded by the serenity of nature without giving
@@ -74,7 +74,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="relative flex flex-1 items-start">
+      <div className="relative flex flex-1 items-start animate-slide-in-right">
         <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">

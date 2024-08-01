@@ -1,56 +1,72 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
+      keyframes: {
+        "slide-in-right": {
+          "0%": { transform: "translateX(100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+        "slide-in-left": {
+          "0%": { transform: "translateX(-100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+      },
+      animation: {
+        "slide-in-right": "slide-in-right 0.5s ease-out forwards",
+        "slide-in-left": "slide-in-left 0.5s ease-out forwards",
+      },
       colors: {
         green: {
-          50: '#30AF5B',
-          90: '#292C27',
+          50: "#30AF5B",
+          90: "#292C27",
         },
         gray: {
-          10: '#EEEEEE',
-          20: '#A2A2A2',
-          30: '#7B7B7B',
-          50: '#585858',
-          90: '#141414',
+          10: "#EEEEEE",
+          20: "#A2A2A2",
+          30: "#7B7B7B",
+          50: "#585858",
+          90: "#141414",
         },
         orange: {
-          50: '#FF814C',
+          50: "#FF814C",
         },
         blue: {
-          70: '#021639',
+          70: "#021639",
         },
         yellow: {
-          50: '#FEC601',
+          50: "#FEC601",
         },
         champagne: {
-          50: '#F3E0B3',
-          70: '#BDA585',
-          90: '#A6845b',
+          50: "#F3E0B3",
+          70: "#BDA585",
+          90: "#A6845b",
         },
       },
       backgroundImage: {
-        'bg-img-1': "url('/price/glamping-in-denmark-mi-casa-tu-casa-best-price-2.jpg')",
-        'bg-img-2': "url('/price/glamping-in-denmark-mi-casa-tu-casa-price-0.jpg')",
-        'feature-bg': "url('/feature-bg.png')",
+        "bg-img-1":
+          "url('/price/glamping-in-denmark-mi-casa-tu-casa-best-price-2.jpg')",
+        "bg-img-2":
+          "url('/price/glamping-in-denmark-mi-casa-tu-casa-price-0.jpg')",
+        "feature-bg": "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
-        'pattern-2': "url('/pattern-bg.png')",
+        "pattern-2": "url('/pattern-bg.png')",
       },
       screens: {
-        xs: '400px',
-        '3xl': '1680px',
-        '4xl': '2200px',
+        xs: "400px",
+        "3xl": "1680px",
+        "4xl": "2200px",
       },
       maxWidth: {
-        '10xl': '1512px',
+        "10xl": "1512px",
       },
       borderRadius: {
-        '5xl': '40px',
+        "5xl": "40px",
       },
     },
   },
